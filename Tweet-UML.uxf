@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>2</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>526</x>
+      <y>142</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;RegisterComponent&gt;&gt;
+
+--
+-model: aUser
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>142</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;LoginComponent&gt;&gt;
+
+--
+-model: aUser
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>434</x>
+      <y>142</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;MainComponent&gt;&gt;
+
+--
+-mainArea: aComponent
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>334</x>
+      <y>60</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SessionComponent&gt;&gt;
+
+--
+user: aUser
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>374</x>
+      <y>72</y>
+      <w>102</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+-session</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>338</x>
+      <y>238</y>
+      <w>42</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;User&gt;&gt;
+
+--
+-name: aString
+-password: aString
+-tweets: aSortedCollection
+-rewteets: aSortedCollection
+-favourites: aSortedCollection
+-friends: anOrderedCollection
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>356</x>
+      <y>96</y>
+      <w>6</w>
+      <h>146</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;710.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>472</x>
+      <y>62</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;WAComponent&gt;&gt;
+
+--
+
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>98</y>
+      <w>26</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;110.0;100.0;10.0;100.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>484</x>
+      <y>98</y>
+      <w>48</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0;220.0;150.0;220.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>434</x>
+      <y>84</y>
+      <w>42</w>
+      <h>62</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+-mainArea: aComponent</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0;10.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>318</x>
+      <y>226</y>
+      <w>46</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1= 0..n
+-friends: anOrderededCollection</panel_attributes>
+    <additional_attributes>100.0;110.0;10.0;110.0;10.0;10.0;110.0;10.0;110.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>178</y>
+      <w>110</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+model: aUser</panel_attributes>
+    <additional_attributes>10.0;330.0;530.0;330.0;530.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>178</y>
+      <w>170</w>
+      <h>82</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+model: aUser</panel_attributes>
+    <additional_attributes>10.0;390.0;830.0;390.0;830.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>574</x>
+      <y>142</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;TweetFormComponent&gt;&gt;
+
+--
+-model: aTweet
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>488</x>
+      <y>98</y>
+      <w>96</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0;460.0;120.0;460.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>98</y>
+      <w>6</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>568</x>
+      <y>242</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Tweet&gt;&gt;
+
+--
+-text: aString
+-hastags: anOrderedCollection
+-owner: aUser
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>178</y>
+      <w>24</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+-model: aTweet</panel_attributes>
+    <additional_attributes>10.0;320.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>266</y>
+      <w>194</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1= 0..n
+tweets: aSortedCollection</panel_attributes>
+    <additional_attributes>950.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>272</y>
+      <w>194</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1= 0..n
+rewteets: aSortedCollection</panel_attributes>
+    <additional_attributes>950.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>260</y>
+      <w>194</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1= 0..n
+favourites: aSortedColection</panel_attributes>
+    <additional_attributes>950.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>496</x>
+      <y>178</y>
+      <w>38</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+ ????</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>666</x>
+      <y>142</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;TweetComponent&gt;&gt;
+
+--
+-model: aTweet
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>608</x>
+      <y>178</y>
+      <w>90</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+-model: aTweet</panel_attributes>
+    <additional_attributes>10.0;370.0;430.0;370.0;430.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>496</x>
+      <y>98</y>
+      <w>182</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;890.0;90.0;890.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>142</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;HomeComponent&gt;&gt;
+
+--
+-tweetsArea: tweetComponents
+-tweetFormArea: aTweetFormComponent
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>636</x>
+      <y>178</y>
+      <w>62</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n
+
+tweetsArea: aSortedCollectionOfComponents</panel_attributes>
+    <additional_attributes>220.0;10.0;220.0;90.0;80.0;90.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>178</y>
+      <w>56</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+-tweetFormArea: aTweetFormComponent</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;90.0;210.0;90.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>492</x>
+      <y>98</y>
+      <w>134</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0;650.0;110.0;650.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>712</x>
+      <y>142</y>
+      <w>42</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;FavouriteComponent&gt;&gt;
+
+--
+-tweetsArea:aTweet
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>278</y>
+      <w>216</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+-owner:aUser</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;1060.0;70.0;1060.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>178</y>
+      <w>28</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n
+
+-tweetsArea:atweet</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;120.0;90.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>98</y>
+      <w>220</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;1080.0;70.0;1080.0;220.0</additional_attributes>
+  </element>
+</diagram>
