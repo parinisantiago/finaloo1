@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>459</x>
+      <x>456</x>
       <y>116</y>
       <w>21</w>
       <h>75</h>
@@ -62,7 +62,7 @@ Package::model
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>591</x>
+      <x>588</x>
       <y>122</y>
       <w>21</w>
       <h>50</h>
@@ -105,7 +105,7 @@ Package::model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>479</x>
+      <x>476</x>
       <y>146</y>
       <w>114</w>
       <h>5</h>
@@ -118,7 +118,7 @@ tweets</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>479</x>
+      <x>476</x>
       <y>138</y>
       <w>114</w>
       <h>5</h>
@@ -131,7 +131,7 @@ favourites</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>449</x>
+      <x>446</x>
       <y>106</y>
       <w>17</w>
       <h>21</h>
@@ -144,7 +144,7 @@ friends</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>591</x>
+      <x>588</x>
       <y>194</y>
       <w>21</w>
       <h>21</h>
@@ -159,6 +159,7 @@ Package::model
 +makeComponent: aFather
 +reOwner
 +reOwner: anObject
++reOwnerName
 +tweet
 +tweet: anObject
 --
@@ -168,7 +169,7 @@ Package::model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>578</x>
+      <x>575</x>
       <y>167</y>
       <w>15</w>
       <h>33</h>
@@ -180,7 +181,7 @@ tweet</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>601</x>
+      <x>598</x>
       <y>171</y>
       <w>3</w>
       <h>25</h>
@@ -191,7 +192,7 @@ tweet</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>657</x>
+      <x>654</x>
       <y>121</y>
       <w>21</w>
       <h>30</h>
@@ -221,7 +222,7 @@ Package::model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>611</x>
+      <x>608</x>
       <y>133</y>
       <w>48</w>
       <h>5</h>
@@ -234,7 +235,7 @@ tweets</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>611</x>
+      <x>608</x>
       <y>128</y>
       <w>48</w>
       <h>5</h>
@@ -247,7 +248,7 @@ hashtags</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>483</x>
+      <x>480</x>
       <y>234</y>
       <w>21</w>
       <h>16</h>
@@ -268,7 +269,7 @@ Package::model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>465</x>
+      <x>462</x>
       <y>190</y>
       <w>20</w>
       <h>54</h>
@@ -281,7 +282,7 @@ notifications</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
+      <x>461</x>
       <y>249</y>
       <w>23</w>
       <h>30</h>
@@ -292,7 +293,7 @@ notifications</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>497</x>
+      <x>494</x>
       <y>249</y>
       <w>21</w>
       <h>31</h>
@@ -303,7 +304,7 @@ notifications</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>455</x>
+      <x>452</x>
       <y>277</y>
       <w>21</w>
       <h>11</h>
@@ -321,7 +322,7 @@ Package::Model
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>505</x>
+      <x>502</x>
       <y>278</y>
       <w>21</w>
       <h>11</h>
@@ -338,7 +339,7 @@ Package::model
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>482</x>
+      <x>479</x>
       <y>318</y>
       <w>21</w>
       <h>10</h>
@@ -354,7 +355,7 @@ Package::model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>447</x>
+      <x>444</x>
       <y>184</y>
       <w>14</w>
       <h>97</h>
@@ -366,7 +367,7 @@ itemRedir</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>493</x>
+      <x>490</x>
       <y>288</y>
       <w>16</w>
       <h>32</h>
@@ -377,7 +378,7 @@ itemRedir</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>506</x>
+      <x>503</x>
       <y>318</y>
       <w>21</w>
       <h>10</h>
@@ -393,7 +394,7 @@ Package::model
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>536</x>
+      <x>533</x>
       <y>318</y>
       <w>21</w>
       <h>10</h>
@@ -409,7 +410,7 @@ Package::model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>523</x>
+      <x>520</x>
       <y>288</y>
       <w>22</w>
       <h>32</h>
@@ -420,7 +421,7 @@ Package::model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>515</x>
+      <x>512</x>
       <y>288</y>
       <w>3</w>
       <h>32</h>
@@ -431,7 +432,7 @@ Package::model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>525</x>
+      <x>522</x>
       <y>157</y>
       <w>68</w>
       <h>125</h>
@@ -443,7 +444,7 @@ itemRedir</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>556</x>
+      <x>553</x>
       <y>214</y>
       <w>45</w>
       <h>112</h>
@@ -455,7 +456,7 @@ itemRedir</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>693</x>
+      <x>690</x>
       <y>385</y>
       <w>21</w>
       <h>58</h>
@@ -502,7 +503,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>298</x>
+      <x>295</x>
       <y>337</y>
       <w>21</w>
       <h>24</h>
@@ -528,7 +529,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>397</x>
+      <x>394</x>
       <y>303</y>
       <w>21</w>
       <h>21</h>
@@ -552,7 +553,7 @@ new: aNotification parent: aFather</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>423</x>
+      <x>420</x>
       <y>340</y>
       <w>21</w>
       <h>10</h>
@@ -568,7 +569,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>364</x>
+      <x>361</x>
       <y>340</y>
       <w>21</w>
       <h>10</h>
@@ -584,7 +585,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>727</x>
+      <x>724</x>
       <y>181</y>
       <w>24</w>
       <h>35</h>
@@ -617,7 +618,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>611</x>
+      <x>608</x>
       <y>150</y>
       <w>118</w>
       <h>37</h>
@@ -629,7 +630,7 @@ tweet</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>590</x>
+      <x>587</x>
       <y>84</y>
       <w>21</w>
       <h>16</h>
@@ -650,7 +651,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
+      <x>597</x>
       <y>99</y>
       <w>3</w>
       <h>25</h>
@@ -661,7 +662,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>724</x>
+      <x>721</x>
       <y>238</y>
       <w>27</w>
       <h>34</h>
@@ -672,26 +673,26 @@ Package::render
 
 --
 +childrens
-+initialize: aRetweet and: aFather
+-initialize: aRetweet and: aFather
 +parent
 +parent: anObject
 +reTweet
 +reTweet: anObject
 +renderContentOn: html
-+renderOwner
-+renderOwnerOn: html
-+renderReTweetOn: html
-+timeString
+-renderReOwnerOn: html
+-renderBodyOn: html
+-renderHeadingOn: html
+-timeString
 +tweetArea
 +tweetArea: anObject
 --
-newFrom: aReTweet Parent: aFather</panel_attributes>
++newFrom: aReTweet Parent: aFather</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>607</x>
+      <x>604</x>
       <y>214</y>
       <w>119</w>
       <h>40</h>
@@ -703,7 +704,7 @@ reTweet</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>750</x>
+      <x>747</x>
       <y>209</y>
       <w>12</w>
       <h>41</h>
@@ -715,7 +716,7 @@ tweetArea</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>271</x>
+      <x>268</x>
       <y>338</y>
       <w>21</w>
       <h>24</h>
@@ -740,7 +741,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>784</x>
+      <x>781</x>
       <y>179</y>
       <w>24</w>
       <h>17</h>
@@ -761,7 +762,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>677</x>
+      <x>674</x>
       <y>131</y>
       <w>116</w>
       <h>50</h>
@@ -773,7 +774,7 @@ hashtag</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
+      <x>437</x>
       <y>283</y>
       <w>67</w>
       <h>59</h>
@@ -785,7 +786,7 @@ itemRedir</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>367</x>
+      <x>364</x>
       <y>283</y>
       <w>90</w>
       <h>59</h>
@@ -797,7 +798,7 @@ itemRedir</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
+      <x>381</x>
       <y>323</y>
       <w>17</w>
       <h>22</h>
@@ -808,7 +809,7 @@ itemRedir</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>415</x>
+      <x>412</x>
       <y>323</y>
       <w>10</w>
       <h>22</h>
@@ -819,7 +820,7 @@ itemRedir</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>307</x>
+      <x>304</x>
       <y>150</y>
       <w>154</w>
       <h>189</h>
@@ -831,7 +832,7 @@ model</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>283</x>
+      <x>280</x>
       <y>137</y>
       <w>178</w>
       <h>203</h>
@@ -843,7 +844,7 @@ user</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>397</x>
+      <x>394</x>
       <y>207</y>
       <w>26</w>
       <h>29</h>
@@ -871,7 +872,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>362</x>
+      <x>359</x>
       <y>212</y>
       <w>21</w>
       <h>13</h>
@@ -890,7 +891,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
+      <x>367</x>
       <y>164</y>
       <w>91</w>
       <h>50</h>
@@ -902,7 +903,7 @@ user</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>761</x>
+      <x>758</x>
       <y>256</y>
       <w>21</w>
       <h>20</h>
@@ -926,7 +927,7 @@ _-ClassAttribute: Long_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>677</x>
+      <x>674</x>
       <y>144</y>
       <w>96</w>
       <h>114</h>
@@ -938,7 +939,7 @@ tweet</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>579</x>
+      <x>576</x>
       <y>396</y>
       <w>26</w>
       <h>30</h>
@@ -967,7 +968,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>578</x>
+      <x>575</x>
       <y>449</y>
       <w>23</w>
       <h>27</h>
@@ -995,7 +996,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>563</x>
+      <x>560</x>
       <y>425</y>
       <w>20</w>
       <h>26</h>
@@ -1006,7 +1007,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>554</x>
+      <x>551</x>
       <y>449</y>
       <w>21</w>
       <h>19</h>
@@ -1027,7 +1028,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>589</x>
+      <x>586</x>
       <y>425</y>
       <w>3</w>
       <h>26</h>
@@ -1038,7 +1039,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>606</x>
+      <x>603</x>
       <y>450</y>
       <w>21</w>
       <h>19</h>
@@ -1060,7 +1061,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>595</x>
+      <x>592</x>
       <y>425</y>
       <w>16</w>
       <h>27</h>
@@ -1071,7 +1072,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>632</x>
+      <x>629</x>
       <y>450</y>
       <w>21</w>
       <h>19</h>
@@ -1094,7 +1095,7 @@ new: aCollection parent: aFather</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
+      <x>597</x>
       <y>425</y>
       <w>42</w>
       <h>27</h>
@@ -1105,7 +1106,7 @@ new: aCollection parent: aFather</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>596</x>
+      <x>593</x>
       <y>496</y>
       <w>21</w>
       <h>19</h>
@@ -1126,7 +1127,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
+      <x>617</x>
       <y>496</y>
       <w>21</w>
       <h>19</h>
@@ -1146,7 +1147,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>644</x>
+      <x>641</x>
       <y>496</y>
       <w>21</w>
       <h>19</h>
@@ -1166,7 +1167,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>668</x>
+      <x>665</x>
       <y>496</y>
       <w>21</w>
       <h>19</h>
@@ -1186,7 +1187,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>606</x>
+      <x>603</x>
       <y>468</y>
       <w>31</w>
       <h>30</h>
@@ -1197,7 +1198,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>636</x>
+      <x>633</x>
       <y>468</y>
       <w>3</w>
       <h>30</h>
@@ -1208,7 +1209,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>647</x>
+      <x>644</x>
       <y>468</y>
       <w>3</w>
       <h>30</h>
@@ -1219,7 +1220,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>649</x>
+      <x>646</x>
       <y>468</y>
       <w>25</w>
       <h>30</h>
@@ -1230,7 +1231,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>684</x>
+      <x>681</x>
       <y>269</y>
       <w>21</w>
       <h>44</h>
@@ -1269,7 +1270,7 @@ new: aFather</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>658</x>
+      <x>655</x>
       <y>340</y>
       <w>21</w>
       <h>16</h>
@@ -1290,7 +1291,7 @@ Package::render
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>706</x>
+      <x>703</x>
       <y>340</y>
       <w>21</w>
       <h>17</h>
@@ -1311,7 +1312,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
+      <x>697</x>
       <y>312</y>
       <w>15</w>
       <h>30</h>
@@ -1322,7 +1323,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>670</x>
+      <x>667</x>
       <y>312</y>
       <w>19</w>
       <h>30</h>
@@ -1333,7 +1334,7 @@ Package::render
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>409</x>
+      <x>406</x>
       <y>323</y>
       <w>158</w>
       <h>212</h>
@@ -1345,7 +1346,7 @@ list</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>334</x>
+      <x>331</x>
       <y>365</y>
       <w>254</w>
       <h>181</h>
@@ -1357,7 +1358,7 @@ list</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>327</x>
+      <x>324</x>
       <y>337</y>
       <w>21</w>
       <h>29</h>
@@ -1386,7 +1387,7 @@ new: aFriend</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
+      <x>333</x>
       <y>157</y>
       <w>125</w>
       <h>182</h>
@@ -1398,7 +1399,7 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
+      <x>587</x>
       <y>195</y>
       <w>207</w>
       <h>354</h>
@@ -1410,7 +1411,7 @@ list</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>652</x>
+      <x>649</x>
       <y>202</y>
       <w>110</w>
       <h>259</h>
@@ -1422,7 +1423,7 @@ list</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>737</x>
+      <x>734</x>
       <y>215</y>
       <w>3</w>
       <h>25</h>
@@ -1433,7 +1434,7 @@ list</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>713</x>
+      <x>710</x>
       <y>205</y>
       <w>49</w>
       <h>196</h>
@@ -1445,7 +1446,7 @@ parent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>713</x>
+      <x>710</x>
       <y>195</y>
       <w>76</w>
       <h>223</h>
@@ -1457,7 +1458,7 @@ parent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>558</x>
+      <x>555</x>
       <y>351</y>
       <w>102</w>
       <h>100</h>
@@ -1469,7 +1470,7 @@ listArea</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>621</x>
+      <x>618</x>
       <y>356</y>
       <w>91</w>
       <h>96</h>
@@ -1481,7 +1482,7 @@ listArea</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>412</x>
+      <x>409</x>
       <y>323</y>
       <w>283</w>
       <h>71</h>
@@ -1493,7 +1494,7 @@ parent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>347</x>
+      <x>344</x>
       <y>364</y>
       <w>358</w>
       <h>23</h>
@@ -1504,7 +1505,7 @@ parent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
+      <x>600</x>
       <y>407</y>
       <w>92</w>
       <h>3</h>
@@ -1515,7 +1516,7 @@ parent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>704</x>
+      <x>701</x>
       <y>299</y>
       <w>37</w>
       <h>97</h>
@@ -1526,7 +1527,7 @@ parent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
+      <x>404</x>
       <y>174</y>
       <w>54</w>
       <h>35</h>
