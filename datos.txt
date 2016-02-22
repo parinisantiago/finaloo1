@@ -1,0 +1,45 @@
+| anUser aTweet |
+
+"reseteo si es necesario"
+"
+Hashtag reset.
+Tweet reset.
+User reset.
+"
+
+"creacion usuarios Juan, Matias, Laura, Maria"
+anUser := User new.
+anUser name: '@Juan'; password: '1234'.
+User addUser: anUser.
+
+anUser := User new.
+anUser name: '@Matias'; password: '1234'.
+User addUser: anUser.
+
+anUser := User new.
+anUser name: '@Laura'; password: '1234'.
+User addUser: anUser.
+
+anUser := User new.
+anUser name: '@Maria'; password: '1234'.
+User addUser: anUser.
+
+"Tweets"
+
+"Tweets de Juan"
+anUser := User find: '@Juan'.
+
+aTweet := Tweet new.
+aTweet owner: anUser.
+aTweet timestamp: (DateAndTime year: 2016 month: 1 day: 2 hour: 12 minute: 23 second: 34).
+aTweet text: 'Primer tweet!'.
+anUser addTweet: aTweet.
+
+
+"Amigos"
+
+anUser := (User find: '@Juan'). 
+anUser toggleFriend: (User find:'@Matias').
+
+"Borrar notificaciones de todos los usuarios"
+User users do:[ :user | user deleteAllNotifications ].
